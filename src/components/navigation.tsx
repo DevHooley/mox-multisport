@@ -20,8 +20,8 @@ export default function Navigation() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex overflow-x-auto">
-                <div className="hidden sm:flex md:space-x-8 lg:space-x-8">
-                  <a href="/" className="flex  flex-shrink-0 items-center">
+                <div className="hidden p-2 sm:flex md:space-x-8 lg:space-x-8">
+                  <a href="/" className="flex pr-4 flex-shrink-0 items-center">
                     <img
                       className="h-8 w-auto"
                       src={image}
@@ -31,32 +31,33 @@ export default function Navigation() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="/"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800"
                   >
                     Home
                   </a>
+
                   <a
                     href="/roadbikes"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800 whitespace-nowrap"
                   >
                     Road Bikes
                   </a>
 
                   <a
                     href="/triathlon"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800"
                   >
                     Triathlon
                   </a>
                   <a
                     href="/custombuilds"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800 whitespace-nowrap"
                   >
                     Custom Builds
                   </a>
                   <a
                     href="/about"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800"
                   >
                     About
                   </a>
