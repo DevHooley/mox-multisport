@@ -23,7 +23,7 @@ export default function About() {
           <p className="text-gray-600 leading-relaxed pt-4">
             At our bicycle shop, we are passionate about cycling and dedicated
             to providing high-quality bicycles and accessories to our community.
-            Whether you're a casual rider or a seasoned cyclist, we have the
+            Whether your a casual rider or a seasoned cyclist, we have the
             perfect bike for you. Our team of experts is here to help you find
             the ideal bike and gear to enhance your cycling experience.
           </p>
