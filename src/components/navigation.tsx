@@ -19,33 +19,44 @@ export default function Navigation() {
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between">
-              <div className="flex">
-                <div className="flex  flex-shrink-0 items-center">
-                  <img className="h-8 w-auto" src={image} alt="Your Company" />
-                </div>
-                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <div className="flex overflow-x-auto">
+                <div className="hidden sm:flex md:space-x-8 lg:space-x-8">
+                  <a href="/" className="flex  flex-shrink-0 items-center">
+                    <img
+                      className="h-8 w-auto"
+                      src={image}
+                      alt="Your Company"
+                    />
+                  </a>
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="/"
-                    className="inline-flex items-center border-b-2 border-sky-300 px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-900"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="/roadbikes"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
+                  >
+                    Road Bikes
+                  </a>
+
+                  <a
+                    href="/triathlon"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700"
                   >
                     Triathlon
                   </a>
                   <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-                  >
-                    Road
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                    href="/custombuilds"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700 whitespace-nowrap"
                   >
                     Custom Builds
                   </a>
                   <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                    href="/about"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 sm:text-xl md:text-2xl lg:text-2xl font-medium text-gray-500 hover:border-sky-300 hover:text-gray-700"
                   >
                     About
                   </a>
@@ -83,7 +94,7 @@ export default function Navigation() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    {/* <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
                           <a
@@ -123,7 +134,7 @@ export default function Navigation() {
                           </a>
                         )}
                       </Menu.Item>
-                    </Menu.Items>
+                    </Menu.Items> */}
                   </Transition>
                 </Menu>
               </div>
@@ -147,31 +158,38 @@ export default function Navigation() {
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
-                href="/livia"
-                className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
+                href="/"
+                className="block border-l-4 border-sky-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-sky-700"
               >
-                Livia Gallery
+                Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="roadbikes"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
-                Team
+                Road Bikes
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="/triathlon"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
-                Projects
+                Triathlon
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
+                href="/custombuilds"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
-                Calendar
+                Custom Builds
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="/about"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+              >
+                About
               </Disclosure.Button>
             </div>
             <div className="border-t border-gray-200 pb-3 pt-4">
@@ -200,7 +218,7 @@ export default function Navigation() {
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div> */}
-              <div className="mt-3 space-y-1">
+              <div>
                 {/* <Disclosure.Button
                   as="a"
                   href="#"
