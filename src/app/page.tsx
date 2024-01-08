@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <>
       <section className="bg-gray-50 flex items-center justify-center">
-        <div className="max-w-4xl mx-auto p-8 bg-white shadow-md rounded-lg">
+        <div className="max-w-6xl max-w mx-auto p-8 bg-white shadow-md rounded-lg">
           <h1 className="text-4xl font-bold mb-6 text-gray-800">
             Welcome to our Bicycle Shop
           </h1>
 
           <div className="w-1/2">
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-lg max-w-96 overflow-hidden">
               <Image
                 src="/Images/frontofstore2.jpg"
                 alt="About Us"

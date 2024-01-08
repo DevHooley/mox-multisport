@@ -25,9 +25,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="space-x-4">
-            <NavLink href="/home">Home</NavLink>
-            <NavLink href="#">Terms of Service</NavLink>
-            <NavLink href="#">Contact Us</NavLink>
+            <NavLink href="/">Home</NavLink>
           </div>
         </div>
       </div>
