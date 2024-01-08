@@ -140,7 +140,7 @@ export default function Navigation() {
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sky-500">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -159,35 +159,35 @@ export default function Navigation() {
               <Disclosure.Button
                 as="a"
                 href="/"
-                className="block border-l-4 border-sky-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-sky-700"
+                className="block border-l-4 hover:border-sky-500 hover:bg-sky-50 py-2 pl-3 pr-4 text-base font-medium hover:text-sky-700"
               >
                 Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="roadbikes"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 Road Bikes
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/triathlon"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 Triathlon
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/custombuilds"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 Custom Builds
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="/about"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 About
               </Disclosure.Button>
