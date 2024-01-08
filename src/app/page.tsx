@@ -4,15 +4,6 @@ export default function Home() {
       <div>
         <div>
           <div>
-            <header className="flex flex-col items-center justify-between bg-sky-300 text-white p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24">
-              <h1 className="text-4xl font-bold mb-4">
-                Welcome to Mox Multisport
-              </h1>
-              <p className="text-lg mb-8">
-                Discover the passion for cycling at Mox Multisport, your premier
-                destination for quality bicycles and accessories.
-              </p>
-            </header>
             <section className="container mx-auto mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {/* Information about the store */}
