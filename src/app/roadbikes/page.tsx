@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/productdata';
+import products from '@/components/roadbikeproductdata';
 
 export default function Roadbikes() {
   return (
