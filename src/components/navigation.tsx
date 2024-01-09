@@ -17,7 +17,7 @@ export default function Navigation() {
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl bg-sky-100 px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex overflow-x-auto">
                 <div className="hidden p-2 sm:flex md:space-x-8 lg:space-x-8">

@@ -27,8 +27,8 @@ export default function Footer() {
               Address - 648 W Randolph St, Chicago, IL 60661
             </a>
           </div>
-          <div className="space-x-4">
-            <NavLink href="/">Home</NavLink>
+          <div className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-white active:border-sky-200   text-white  hover:bg-sky-200  active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-white">
+            <a href="/">Home</a>
           </div>
         </div>
       </div>
