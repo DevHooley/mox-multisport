@@ -41,6 +41,7 @@ const products = [
     sizes: ['48', '51', '54', '56', '58', '61'],
     image: '/RoadBikes/Caledonia-5-Ult-Di2-FiveBlack.jpg',
   },
+  
 
   // Add more products as needed
 ];

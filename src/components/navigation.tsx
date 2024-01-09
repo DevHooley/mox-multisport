@@ -160,7 +160,7 @@ export default function Navigation() {
               <Disclosure.Button
                 as="a"
                 href="/"
-                className="block border-l-4 hover:border-sky-500 hover:bg-sky-50 py-2 pl-3 pr-4 text-base font-medium hover:text-sky-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 Home
               </Disclosure.Button>
