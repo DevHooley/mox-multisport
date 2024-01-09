@@ -23,7 +23,7 @@ export default function Roadbikes() {
                       alt={product.name}
                       width={500}
                       height={300}
-                      layout="responsive"
+                      
                     />
                   </a>
                   <h2 className="text-xl text-black font-semibold mb-2">

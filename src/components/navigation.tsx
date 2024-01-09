@@ -10,7 +10,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
-const image = '/MoxLogo.jpg';
 
 export default function Navigation() {
   return (
@@ -26,11 +25,11 @@ export default function Navigation() {
                     className="flex pr-4 flex-shrink-0 w-20 h-full items-center"
                   >
                     <Image
-                      src={image}
+                      src="/MoxLogo.jpg"
                       alt="Mox Multisport Logo"
-                      width={20}
+                      width={50}
                       height={20}
-                      layout="responsive"
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                   </a>
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}

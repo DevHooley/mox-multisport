@@ -14,7 +14,6 @@ export default function Home() {
               <Image
                 src="/Images/frontofstore2.jpg"
                 alt="About Us"
-                layout="responsive"
                 width={400} // Adjusted width for a smaller image
                 height={300} // Adjusted height for a smaller image
               />
