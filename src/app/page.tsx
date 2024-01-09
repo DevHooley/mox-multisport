@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <section className="bg-gray-50 flex items-center justify-center">
+      <section className="bg-gray-50 flex items-center p-2 justify-center">
         <div className="max-w-6xl max-w mx-auto p-8 bg-white shadow-md rounded-lg">
           <h1 className="text-4xl font-bold mb-6 text-gray-800">
             Welcome to our Bicycle Shop

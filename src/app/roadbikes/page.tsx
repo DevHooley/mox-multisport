@@ -17,13 +17,15 @@ export default function Roadbikes() {
                   key={product.id}
                   className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
                 >
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    width={500}
-                    height={300}
-                    layout="responsive"
-                  />
+                  <a href={product.url}>
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={500}
+                      height={300}
+                      layout="responsive"
+                    />
+                  </a>
                   <h2 className="text-xl text-black font-semibold mb-2">
                     {product.name}
                   </h2>
