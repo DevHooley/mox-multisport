@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import products from '@/components/roadbikeproductdata';
+import Link from 'next/link';
 
 export default function Roadbikes() {
   return (
@@ -17,15 +18,15 @@ export default function Roadbikes() {
                   key={product.id}
                   className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
                 >
-                  <a href={product.url}>
+                  <Link href={product.url}>
                     <Image
                       src={product.image}
                       alt={product.name}
                       width={500}
                       height={300}
-                      
+                      style={{ width: 'auto', height: 'auto' }}
                     />
-                  </a>
+                  </Link>
                   <h2 className="text-xl text-black font-semibold mb-2">
                     {product.name}
                   </h2>

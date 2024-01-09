@@ -14,37 +14,36 @@ export default function r5Duraace() {
             <h1 className="text-3xl text-black font-bold mb-4">
               Cervelo R5 Dura Ace
             </h1>
-            <a href="">
-              <div className="grid grid-cols-1">
-                {filteredProducts.map((product) => (
-                  <div
-                    key={product.id}
-                    className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
-                  >
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      width={500}
-                      height={300}
-                      style={{ width: 'auto', height: 'auto' }}
-                    />
-                    <h2 className="text-xl text-black font-semibold mb-2">
-                      {product.name}
-                    </h2>
-                    <p className="text-gray-600 mb-2">{product.description}</p>
-                    <p className="text-gray-700 mb-2">{product.about}</p>
-                    <p className="text-green-700 font-bold mb-2">
-                      ${product.price}
-                    </p>
-                    <p className="text-gray-700 mb-2">
-                      Sizes: {product.sizes.join(', ')}
-                    </p>
-                    {/* Use next/image for images */}
-                    <div className="rounded-md overflow-hidden"></div>
-                  </div>
-                ))}
-              </div>
-            </a>
+
+            <div className="grid max-w-[600px] grid-cols-1">
+              {filteredProducts.map((product) => (
+                <div
+                  key={product.id}
+                  className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
+                >
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    width={500}
+                    height={300}
+                    style={{ width: 'auto', height: 'auto' }}
+                  />
+                  <h2 className="text-xl text-black font-semibold mb-2">
+                    {product.name}
+                  </h2>
+                  <p className="text-gray-600 mb-2">{product.description}</p>
+                  <p className="text-gray-700 mb-2">{product.about}</p>
+                  <p className="text-green-700 font-bold mb-2">
+                    ${product.price}
+                  </p>
+                  <p className="text-gray-700 mb-2">
+                    Sizes: {product.sizes.join(', ')}
+                  </p>
+                  {/* Use next/image for images */}
+                  <div className="rounded-md overflow-hidden"></div>
+                </div>
+              ))}
+            </div>
           </div>
         </main>
       </section>
