@@ -8,7 +8,7 @@ const products = [
     price: 13000.0,
     sizes: ['48', '51', '54', '56', '58', '61'],
     image: '/RoadBikes/R5-DuraAce-Di2-FiveBlack.jpg',
-    url: '/roadbikes/r5dura-ace',
+    url: '/roadbike/1/page', // Updated URL with product ID
   },
   {
     id: 2,
@@ -20,9 +20,8 @@ const products = [
     sizes: ['48', '51', '54', '56', '58'],
     image:
       '/RoadBikes/S5-DuraAce-Di2-FiveBlk_c0b8d903-a1fb-4d30-bf9b-2cbe8e6e8d05.jpg',
-    url: '/roadbikes/r5dura-ace',
+    url: '/roadbike/2/page', // Updated URL with product ID
   },
-
   {
     id: 3,
     name: 'Soloist Ultegra Di2',
@@ -32,7 +31,7 @@ const products = [
     price: 6800.0,
     sizes: ['48', '51', '54', '56', '58', '61'],
     image: '/RoadBikes/Soloist-Ult-di2-embers.jpg',
-    url: '/roadbikes/r5dura-ace',
+    url: '/roadbike/3/page', // Updated URL with product ID
   },
   {
     id: 4,
@@ -43,9 +42,8 @@ const products = [
     price: 8500.0,
     sizes: ['48', '51', '54', '56', '58', '61'],
     image: '/RoadBikes/Caledonia-5-Ult-Di2-FiveBlack.jpg',
-    url: '/roadbikes/r5dura-ace',
+    url: '/roadbike/4/page', // Updated URL with product ID
   },
-
   // Add more products as needed
 ];
 
