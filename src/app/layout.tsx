@@ -22,10 +22,14 @@ export default function RootLayout({
     <>
       <html lang="en">
         <body className={inter.className}>
-          <Header />
-          <Navigation />
-          {children}
-          <Footer />
+          <div className="bg-pink-100 mx-auto ">
+            <div className="max-w-[1440px] mx-auto">
+              <Header />
+              <Navigation />
+              {children}
+              <Footer />
+            </div>
+          </div>
         </body>
       </html>
     </>

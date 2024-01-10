@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Roadbikes() {
   return (
     <>
-      <section className=" bg-gray-50">
+      <section className=" bg-gray-50 rounded-md">
         <main className="flex justify-center items-center p-4">
           <div className="text-center">
             <h1 className="text-3xl text-black font-bold mb-4">

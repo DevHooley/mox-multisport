@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Link } from 'next/link';
 
 // @ts-ignore
 function classNames(...classes) {
@@ -13,22 +14,23 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="pb-4 pt-4">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-[1100px] rounded-md bg-sky-100 px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-[1000px] shadow-sm rounded-md bg-sky-100 px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex overflow-x-auto">
-                <div className="hidden p-2 sm:flex md:space-x-8 lg:space-x-8">
+                <div className="hidden p-1 shadow-sm sm:flex md:space-x-8 lg:space-x-8">
                   <a
                     href="/"
-                    className="flex pr-4 flex-shrink-0 w-20 h-full items-center"
+                    className="flex  transform active:scale-100 hover:scale-110   pr-4 flex-shrink-0 w-20 h-full items-center"
                   >
                     <Image
+                      className="rounded-lg"
                       src="/MoxLogo.jpg"
                       alt="Mox Multisport Logo"
-                      width={50}
-                      height={20}
+                      width={60}
+                      height={30}
                       style={{ width: 'auto', height: 'auto' }}
                     />
                   </a>
