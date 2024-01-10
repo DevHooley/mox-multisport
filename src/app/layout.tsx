@@ -4,6 +4,7 @@ import './globals.css';
 import Navigation from '@/components/navigation';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import Banner from '@/components/banner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <div className="bg-pink-100 mx-auto ">
             <div className="max-w-7xl mx-auto">
               <Header />
+              <Banner />
               <Navigation />
               {children}
               <Footer />

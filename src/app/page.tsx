@@ -51,7 +51,7 @@ function ContactComponent() {
       </h2>
       <h2 className="text-gray-600 cursor-pointer leading-relaxed pt-4">
         <a onClick={handleEmailClick}>
-          Email Troy Crady - moxmultisport@gmail.com
+          Email: Troy Crady - moxmultisport@gmail.com
         </a>
       </h2>
     </div>
@@ -71,12 +71,14 @@ export default function Home() {
             <ImageComponent />
             <div>
               <p className="text-gray-600 leading-relaxed pt-4">
-                At our bicycle shop, we are passionate about cycling and
-                dedicated to providing high-quality bicycles and accessories to
-                our community. Whether you're a casual rider or a seasoned
-                cyclist, we have the perfect bike for you. Our team of experts
-                is here to help you find the ideal bike and gear to enhance your
-                cycling experience.
+                At our bicycle shop, we live and breathe cycling. Committed to
+                serving our community, we take pride in offering top-notch
+                bicycles and accessories. Whether you're a leisurely rider or a
+                seasoned cyclist, we've got the perfect bike waiting for you.
+                Our team of dedicated experts is ready to guide you in
+                discovering the ideal bike and gear to elevate your cycling
+                journey. From casual rides to professional races, we're here to
+                enhance your cycling experience at every turn.
               </p>
               <p className="text-gray-600 leading-relaxed pt-4">
                 Visit us today to explore our wide selection of bikes, from road
