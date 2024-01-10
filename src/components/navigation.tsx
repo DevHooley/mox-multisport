@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Link } from 'next/link';
 
 // @ts-ignore
 function classNames(...classes) {
@@ -37,7 +36,7 @@ export default function Navigation() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="/"
-                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800"
+                    className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800 whitespace-nowrap"
                   >
                     Home
                   </a>
@@ -61,12 +60,12 @@ export default function Navigation() {
                   >
                     Custom Builds
                   </a>
-                  <a
+                  {/* <a
                     href="/about"
                     className="inline-flex items-center border-2  text-xl md:text-2xl active:border-2 border-transparent lg:text-2xl font-medium px-3 active:text-slate-700 active:border-sky-200   text-gray-700  hover:bg-sky-200 active:bg-sky-100 active:shadow-inner  rounded-md transition-transform duration-300 transform active:scale-100  hover:shadow-md hover:scale-110 hover:text-gray-800"
                   >
                     About
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
@@ -161,7 +160,7 @@ export default function Navigation() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 pb-3 pt-2">
+            <div className="space-y-1 bg-gray-50 pb-3 pt-2">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
@@ -191,13 +190,13 @@ export default function Navigation() {
               >
                 Custom Builds
               </Disclosure.Button>
-              <Disclosure.Button
+              {/* <Disclosure.Button
                 as="a"
                 href="/about"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700"
               >
                 About
-              </Disclosure.Button>
+              </Disclosure.Button> */}
             </div>
             <div className="border-t border-gray-200 pb-3 pt-4">
               {/* <div className="flex items-center px-4">

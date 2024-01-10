@@ -23,39 +23,42 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-sky-300 shadow-sm rounded-md text-white py-6">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
-          <div>
-            <a
-              href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473919,17z/data=!3m2!4b1!5s0x880e2cc593fa8991:0x5464abfea94a887e!4m6!3m5!1s0x880e2cc540e27dc3:0xda536ce40582cafe!8m2!3d41.884844!4d-87.6448116!16s%2Fg%2F1tdz5dpk?entry=ttu"
-              className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl whitespace-nowrap"
-            >
-              Address - 648 W Randolph St, Chicago, IL 60661
-            </a>
+    <div className="pt-2">
+      <footer className="bg-sky-300  shadow-sm rounded-md text-white py-6">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+            <div>
+              <a
+                href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473919,17z/data=!3m2!4b1!5s0x880e2cc593fa8991:0x5464abfea94a887e!4m6!3m5!1s0x880e2cc540e27dc3:0xda536ce40582cafe!8m2!3d41.884844!4d-87.6448116!16s%2Fg%2F1tdz5dpk?entry=ttu"
+                className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl whitespace-nowrap"
+              >
+                Address - 648 W Randolph St, Chicago, IL 60661
+              </a>
+            </div>
+            <div className="flex-shrink-0">
+              <a
+                className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl cursor-pointer whitespace-nowrap"
+                onClick={handleDialClick}
+              >
+                Phone number - (312) 466-9111
+              </a>
+            </div>
+            <div>
+              <p className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl  whitespace-nowrap">
+                Troy Crady
+              </p>
+              <a
+                onClick={handleEmailClick}
+                className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl  whitespace-nowrap cursor-pointer"
+              >
+                Email - moxmultisport@gmail.com
+              </a>
+            </div>
           </div>
-          <div className="flex-shrink-0">
-            <a
-              className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl cursor-pointer whitespace-nowrap"
-              onClick={handleDialClick}
-            >
-              Phone number - (312) 466-9111
-            </a>
-          </div>
-          <div>
-            <a
-              onClick={handleEmailClick}
-              className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl  whitespace-nowrap cursor-pointer"
-            >
-              Email - moxmultisport@gmail.com
-            </a>
-          </div>
+          <div className="flex flex-col cursor-pointer sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8"></div>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
-
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
 }
 

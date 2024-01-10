@@ -23,7 +23,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <div className="bg-pink-100 mx-auto ">
-            <div className="max-w-[1440px] mx-auto">
+            <div className="max-w-7xl mx-auto">
               <Header />
               <Navigation />
               {children}
