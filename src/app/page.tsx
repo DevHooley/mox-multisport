@@ -8,7 +8,7 @@ function ImageComponent() {
     <div className="rounded-lg overflow-hidden">
       <Image
         src="/Images/frontofstore2.jpg"
-        alt="About Us"
+        alt="Chicago Road Bikes and Triathlon Bikes - Mox Multisport"
         width={400}
         height={300}
         className="object-cover w-full h-full"

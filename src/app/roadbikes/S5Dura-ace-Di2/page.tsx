@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import products from '@/components/roadbikeproductdata';
 
-export default function r5Duraace() {
+export default function R5Duraace() {
   // Filter products to include only the one with id 1
   const filteredProducts = products.filter((product) => product.id === 2);
 
@@ -12,7 +12,7 @@ export default function r5Duraace() {
         <main className="flex justify-center items-center p-4">
           <div className="text-center">
             <h1 className="text-3xl text-black font-bold mb-4">
-              Cervelo S5 Dura Ace Di2
+              {filteredProducts.length > 0 && filteredProducts[0].model}
             </h1>
 
             <div className="grid max-w-[600px] grid-cols-1">
