@@ -25,8 +25,8 @@ export default function RootLayout({
         <body className={inter.className}>
           <div className="bg-pink-100 mx-auto ">
             <div className="max-w-7xl mx-auto">
-              <Header />
               <Banner />
+              <Header />
               <Navigation />
               {children}
               <Footer />

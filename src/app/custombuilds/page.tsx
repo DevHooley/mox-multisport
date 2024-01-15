@@ -6,7 +6,7 @@ import products from '@/components/custombikeproductdata';
 export default function troyspecial() {
   return (
     <>
-      <section className=" bg-gray-50">
+      <section className=" bg-gray-50 rounded-sm">
         <main className="flex justify-center items-center p-4">
           <div className="text-center">
             <h1 className="text-3xl text-black font-bold mb-4">
