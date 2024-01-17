@@ -1,6 +1,7 @@
+
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/roadbikeproductdata';
+import products from '@/components/triathlonbikeproductdata';
 
 export default function r5Duraace() {
   // Filter products to include only the one with id 1

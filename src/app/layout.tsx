@@ -24,12 +24,14 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <div className="bg-pink-100 mx-auto ">
-            <div className="max-w-7xl mx-auto">
-              <Banner />
-              <Header />
-              <Navigation />
-              {children}
-              <Footer />
+            <div className="bg-slate-700 border-1 border-slate-500 mx-auto justify-center item-center max-w-7xl">
+              <div className="max-w-7xl mx-auto">
+                <Banner />
+                <Header />
+                <Navigation />
+                {children}
+                <Footer />
+              </div>
             </div>
           </div>
         </body>

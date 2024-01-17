@@ -23,10 +23,10 @@ export default function Footer() {
   };
 
   return (
-    <div className="pt-1">
-      <footer className="bg-sky-300  shadow-sm rounded-sm text-white py-6">
+    <div className="py-0.5">
+      <footer className="bg-sky-300  shadow-sm  text-white py-6">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+          <div className="flex flex-col sm:flex-row items-start lg:justify-center md:justify-center lg:items-center space-y-4 sm:space-y-0 md:item sm:space-x-8">
             <div>
               <a
                 href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473919,17z/data=!3m2!4b1!5s0x880e2cc593fa8991:0x5464abfea94a887e!4m6!3m5!1s0x880e2cc540e27dc3:0xda536ce40582cafe!8m2!3d41.884844!4d-87.6448116!16s%2Fg%2F1tdz5dpk?entry=ttu"

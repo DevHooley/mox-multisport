@@ -23,7 +23,7 @@ function ContactComponent() {
       </h2>
       <h2 className="text-gray-600 cursor-pointer leading-relaxed p-1">
         <a onClick={handleEmailClick}>
-          Email: Troy Crady  moxmultisport@gmail.com
+          Email: Troy Crady moxmultisport@gmail.com
         </a>
       </h2>
     </div>
@@ -45,7 +45,7 @@ function AddressComponent() {
 
 export default function Header() {
   return (
-    <header className="bg-gray-50 p-2 sm:p-4 md:p-6 lg:p-6 xl:p-6 2xl:p-6">
+    <header className="bg-gray-50 py-0.5 sm:py-0.5 md:py-0.5 lg:py-0.5 xl:py-0.5 2xl:py-0.5">
       <div className="flex flex-wrap lg:flex-nowrap">
         <div className="lg:w-3/4">
           {/* Existing content */}
@@ -60,19 +60,22 @@ export default function Header() {
                 style={{ width: 'auto', height: 'auto' }}
               />
             </a>
-            <h1 className="text-4xl text-sky-500 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 text-center">
+            <h1 className="text-4xl pt-4 text-sky-500 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 text-center">
               Mox Multisport
             </h1>
           </div>
-          <p className="text-base text-gray-700 sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-lg text-center">
-            Discover the passion for cycling at Mox Multisport, your premier
-            destination for quality bicycles and accessories.
-          </p>
+          <div className="justify-center items-center">
+            <p className="text-base text-gray-700 font-semibold pb-2 sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-lg text-center">
+              Discover the passion for cycling at Mox Multisport, your premier
+              destination for quality
+              <br className="" /> bicycles and accessories.
+            </p>
+          </div>
         </div>
 
         {/* Render AddressComponent and ContactComponent only on lg and xl screens */}
         <div className="lg:w-1/4 lg:pl-4 hidden lg:inline xl:inline">
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center mt-2 items-center">
             <AddressComponent />
             <ContactComponent />
           </div>
