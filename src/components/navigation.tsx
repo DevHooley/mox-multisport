@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Dropdown from './dropdown';
 
 // @ts-ignore
 function classNames(...classes) {
