@@ -22,35 +22,35 @@ export default function Caledonia() {
                   key={product.id}
                   className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
                 >
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      width={500}
-                      height={300}
-                      style={{ width: 'auto', height: 'auto' }}
-                    />
-                    <h2 className="text-xl text-black font-semibold mb-2">
-                      {product.name}
-                    </h2>
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    width={500}
+                    height={300}
+                    style={{ width: 'auto', height: 'auto' }}
+                  />
+                  <h2 className="text-xl text-black font-semibold mb-2">
+                    {product.name}
+                  </h2>
                   <p className="text-gray-600 mb-2">{product.description}</p>
                   <p className="text-gray-700 mb-2">{product.about}</p>
-                  <p className="text-green-700 font-bold mb-2">
+                  <p className="text-sky-600 font-bold mb-2">
                     ${product.price}
                   </p>
                   <p className="text-gray-700 hidden mb-2">
                     Sizes: {product.sizes.join(', ')}
                   </p>
                   <Link href="/order" passHref>
-                  <p className="text-gray-700 mb-2">
-                    Available Sizes:{' '}
-                    {product.availablesizes.map((size, index) => (
-                      <span key={index} className="hover:text-green-700">
-                        {size}
-                        {index < product.availablesizes.length - 1 && ', '}
-                      </span>
-                    ))}
-                  </p>
-                    </Link>
+                    <p className="text-gray-700 mb-2">
+                      Available Sizes:{' '}
+                      {product.availablesizes.map((size, index) => (
+                        <span key={index} className="hover:text-sky-600">
+                          {size}
+                          {index < product.availablesizes.length - 1 && ', '}
+                        </span>
+                      ))}
+                    </p>
+                  </Link>
                   {/* Use next/image for images */}
                   <div className="rounded-md overflow-hidden"></div>
                 </div>

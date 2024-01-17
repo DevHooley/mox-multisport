@@ -34,7 +34,7 @@ export default function Caledonia5() {
                   </h2>
                   <p className="text-gray-600 mb-2">{product.description}</p>
                   <p className="text-gray-700 mb-2">{product.about}</p>
-                  <p className="text-green-700 font-bold mb-2">
+                  <p className="text-sky-600 font-bold mb-2">
                     ${product.price}
                   </p>
                   <p className="text-gray-700 hidden mb-2">
@@ -44,7 +44,7 @@ export default function Caledonia5() {
                     <p className="text-gray-700 mb-2">
                       Available Sizes:{' '}
                       {product.availablesizes.map((size, index) => (
-                        <span key={index} className="hover:text-green-700">
+                        <span key={index} className="hover:text-sky-600">
                           {size}
                           {index < product.availablesizes.length - 1 && ', '}
                         </span>

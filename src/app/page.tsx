@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import AddressComponent from '@/components/address';
 import ContactComponent from '@/components/contact';
+import CustomMenu from '@/components/custommenu';
 
 function ImageComponent() {
   return (
@@ -52,7 +53,7 @@ export default function Home() {
                   ensuring that every rider finds the perfect fit. Join us on
                   the journey to discovering the joy of cycling!
                 </p>
-                <div className='p-5'>
+                <div className="p-5">
                   <AddressComponent />
                   <ContactComponent />
                 </div>
