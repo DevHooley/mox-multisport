@@ -4,11 +4,39 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import RoadBikes from './roadbikes';
 
 // @ts-ignore
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
+
+const Buttons = [
+  {
+    label: 'Home',
+    href: '/',
+  },
+  // {
+  //   label: 'Test',
+  //   href: '/cervelo',
+  // },
+  {
+    label: 'Cervelo',
+    href: '/cervelo',
+  },
+  {
+    label: 'Pinarello',
+    href: 'pinarello',
+  },
+  {
+    label: 'Triathlon',
+    href: '/triathlon',
+  },
+  {
+    label: 'Custom Builds',
+    href: '/CustomBuilds',
+  },
+];
 
 export default function Navigation() {
   return (
@@ -19,14 +47,30 @@ export default function Navigation() {
             <div className="flex h-16 ">
               <div className="flex overflow-x-auto">
                 <div className="hidden  p-1 shadow-sm sm:flex md:space-x-8 lg:space-x-8">
-                  <a
+                  {Buttons.map((button) => (
+                    <a
+                      key={button.href}
+                      href={button.href}
+                      className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                    >
+                      {button.label}
+                    </a>
+                  ))}
+
+                  {/* <a
                     href="/"
                     className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
                   >
                     Home
                   </a>
                   <a
-                    href="/roadbikes"
+                    href="/Cervelo"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Road Bikes
+                  </a>
+                  <a
+                    href="/Cervelo"
                     className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
                   >
                     Road Bikes
@@ -43,7 +87,32 @@ export default function Navigation() {
                     className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
                   >
                     Custom Builds
-                  </a>
+                  </a> */}
+                  {/* <Menu>
+                    <Menu.Button className="">
+                      {Brand.map((item) => (
+                        <a
+                          key={item.href}
+                          href={item.href}
+                          className="px-4 py-2 text-xl md:text-2xl lg:text-2xl  hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap focus:outline-none"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
+                    </Menu.Button>
+                    <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      {links.map((link) => (
+                        <Menu.Item
+                          as="a"
+                          key={link.href}
+                          href={link.href}
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          {link.label}
+                        </Menu.Item>
+                      ))}
+                    </Menu.Items>
+                  </Menu> */}
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
@@ -76,7 +145,17 @@ export default function Navigation() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 bg-gray-50 pb-3 pt-2">
-              <Disclosure.Button
+              {Buttons.map((button) => (
+                <a
+                  key={button.href}
+                  href={button.href}
+                  className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-pink-500 hover:bg-pink-50 hover:text-pink-500
+                active:bg-sky-50 active:border-sky-300 active:text-sky-700"
+                >
+                  {button.label}
+                </a>
+              ))}
+              {/* <Disclosure.Button
                 as="a"
                 href="/"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-pink-500 hover:bg-pink-50 hover:text-pink-500
@@ -84,7 +163,6 @@ export default function Navigation() {
               >
                 Home
               </Disclosure.Button>
-
               <Disclosure.Button
                 as="a"
                 href="roadbikes"
@@ -109,7 +187,7 @@ export default function Navigation() {
               >
                 Custom Builds
               </Disclosure.Button>
-              {}
+              {} */}
             </div>
             <div className="border-t border-gray-200 pb-3 pt-4">
               {}

@@ -11,7 +11,7 @@ const products = [
     sizes: ['48', '51', '54', '56', '58', '61'],
     availablesizes: ['51', '54'],
     image: '/RoadBikes/R5-DuraAce-Di2-FiveBlack.jpg',
-    url: '/roadbikes/1/R5Dura-Ace-Di2',
+    url: '/cervelo/1/R5Dura-Ace-Di2',
     // Updated URL with product ID
   },
   {
@@ -27,7 +27,7 @@ const products = [
     availablesizes: ['51', '54'],
     image:
       '/RoadBikes/S5-DuraAce-Di2-FiveBlk_c0b8d903-a1fb-4d30-bf9b-2cbe8e6e8d05.jpg',
-    url: '/roadbikes/2/S5Dura-ace-Di2', // Updated URL with product ID
+    url: '/cervelo/2/S5Dura-ace-Di2', // Updated URL with product ID
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const products = [
     sizes: ['48', '51', '54', '56', '58', '61'],
     availablesizes: ['51', '54'],
     image: '/RoadBikes/Soloist-Ult-di2-embers.jpg',
-    url: '/roadbikes/3/SoloistUltegra-Di2',
+    url: '/cervelo/3/SoloistUltegra-Di2',
     // Updated URL with product ID
   },
   {
@@ -56,7 +56,7 @@ const products = [
     sizes: ['48', '51', '54', '56', '58', '61'],
     availablesizes: ['51', '54'],
     image: '/RoadBikes/Caledonia-5-Ult-Di2-FiveBlack.jpg',
-    url: '/roadbikes/4/Caledonia5', // Updated URL with product ID
+    url: '/cervelo/4/Caledonia5', // Updated URL with product ID
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const products = [
     sizes: ['48', '51', '54', '56', '58', '61'],
     availablesizes: ['51', '54'],
     image: '/RoadBikes/Caledonia105.avif',
-    url: '/roadbikes/5/Caledonia', // Updated URL with product ID
+    url: '/cervelo/5/Caledonia', // Updated URL with product ID
   },
   // Add more products as needed
 ];

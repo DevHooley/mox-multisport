@@ -5,7 +5,7 @@ import products from '@/components/triathlonbikeproductdata';
 export default function Triathlon() {
   return (
     <>
-      <section className=" bg-gray-50 rounded-md">
+      <section className=" bg-gray-50 ">
         <main className="flex justify-center items-center p-4">
           <div className="text-center">
             <h1 className="text-3xl text-black font-bold mb-4">
