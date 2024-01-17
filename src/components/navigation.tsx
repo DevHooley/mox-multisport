@@ -34,7 +34,7 @@ const Buttons = [
   },
   {
     label: 'Custom Builds',
-    href: '/CustomBuilds',
+    href: '/custombuilds',
   },
 ];
 

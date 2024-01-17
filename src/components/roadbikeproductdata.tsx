@@ -1,21 +1,6 @@
 const products = [
   {
     id: 1,
-    version: 'R5',
-    name: 'R5 Dura-Ace Di2',
-    model: 'Cervelo R5',
-    description: 'FASTER IN EVERY DIRECTION',
-    about:
-      'The new R5 frame is 130g lighter than the previous model—a 16% reduction from an already-light frame.  And while aerodynamics weren’t a focus with this frame the way they would be on an S5 or P5, bringing the cables inside reduced drag by 25g.',
-    price: (13000.0).toLocaleString(),
-    sizes: ['48', '51', '54', '56', '58', '61'],
-    availablesizes: ['51', '54'],
-    image: '/RoadBikes/R5-DuraAce-Di2-FiveBlack.jpg',
-    url: '/cervelo/1/R5Dura-Ace-Di2',
-    // Updated URL with product ID
-  },
-  {
-    id: 2,
     version: 'S5',
     name: 'S5 Dura-Ace Di2 ',
     model: 'Cervelo S5',
@@ -28,6 +13,21 @@ const products = [
     image:
       '/RoadBikes/S5-DuraAce-Di2-FiveBlk_c0b8d903-a1fb-4d30-bf9b-2cbe8e6e8d05.jpg',
     url: '/cervelo/2/S5Dura-ace-Di2', // Updated URL with product ID
+  },
+  {
+    id: 2,
+    version: 'R5',
+    name: 'R5 Dura-Ace Di2',
+    model: 'Cervelo R5',
+    description: 'FASTER IN EVERY DIRECTION',
+    about:
+      'The new R5 frame is 130g lighter than the previous model—a 16% reduction from an already-light frame.  And while aerodynamics weren’t a focus with this frame the way they would be on an S5 or P5, bringing the cables inside reduced drag by 25g.',
+    price: (13000.0).toLocaleString(),
+    sizes: ['48', '51', '54', '56', '58', '61'],
+    availablesizes: ['51', '54'],
+    image: '/RoadBikes/R5-DuraAce-Di2-FiveBlack.jpg',
+    url: '/cervelo/1/R5Dura-Ace-Di2',
+    // Updated URL with product ID
   },
   {
     id: 3,
