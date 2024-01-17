@@ -23,7 +23,7 @@ const products = [
       '62',
     ],
     availablesizes: ['53', '54'],
-    image: '/pinarello/road/dogma-1f-white-dura-ace.png',
+    image: '/pinarello/road/dogma-f0-black-dura-ace.png',
     url: '/pinarello/bikes/road/dogma-f/dogma-f0/',
 
     // Updated URL with product ID
