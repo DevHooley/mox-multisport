@@ -1,6 +1,6 @@
 const products = [
   {
-    id: 1,
+    id: 2, // Swapped id from 1 to 2
     version: 'S5',
     name: 'S5 Dura-Ace Di2 ',
     model: 'Cervelo S5',
@@ -12,10 +12,11 @@ const products = [
     availablesizes: ['51', '54'],
     image:
       '/RoadBikes/S5-DuraAce-Di2-FiveBlk_c0b8d903-a1fb-4d30-bf9b-2cbe8e6e8d05.jpg',
-    url: '/cervelo/2/S5Dura-ace-Di2', // Updated URL with product ID
+    url: '/cervelo/2/S5Dura-ace-Di2',
+    // Updated URL with product ID
   },
   {
-    id: 2,
+    id: 1, // Swapped id from 2 to 1
     version: 'R5',
     name: 'R5 Dura-Ace Di2',
     model: 'Cervelo R5',

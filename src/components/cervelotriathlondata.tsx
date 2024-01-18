@@ -19,8 +19,8 @@ const products = [
   {
     id: 2,
     version: 'P5',
-    name: 'P5 Dura-ace Di2',
-    model: 'Dura-ace di2',
+    name: 'P5 Ultegra Di2',
+    model: 'Ultegra di2',
     color: 'Black ',
     description: 'LESS DRAG, MORE SPEED',
     about:

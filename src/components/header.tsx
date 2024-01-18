@@ -60,12 +60,15 @@ export default function Header() {
                 style={{ width: 'auto', height: 'auto' }}
               />
             </a>
-            <h1 className="text-4xl pt-4 text-sky-500 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 text-center">
+            <h1 className="text-3xl pt-4 text-sky-500  sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 text-center">
               Mox Multisport
             </h1>
+            {/* <h1 className="text-3xl pt-4 text-sky-500 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 text-center font-serif tracking-wide leading-tight text-shadow-md">
+              Mox Multisport
+            </h1> */}
           </div>
           <div className="justify-center items-center">
-            <p className="text-base text-gray-700 font-semibold pb-2 sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-lg text-center">
+            <p className=" ml-5 text-gray-700  text-sm font-semibold pb-2 sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-lg text-center">
               Discover the passion for cycling at Mox Multisport, your premier
               destination for quality
               <br className="" /> bicycles and accessories.
