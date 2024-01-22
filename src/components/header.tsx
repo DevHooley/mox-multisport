@@ -16,12 +16,12 @@ function ContactComponent() {
       <h2 className="">
         <a
           onClick={handleDialClick}
-          className="text-gray-600 cursor-pointer leading-relaxed p-1"
+          className="text-gray-600 cursor-pointer leading-relaxed px-2"
         >
-          Phone number - (312) 466-9111
+          Phone number: (312) 466-9111
         </a>
       </h2>
-      <h2 className="text-gray-600 cursor-pointer leading-relaxed p-1">
+      <h2 className="text-gray-600 cursor-pointer leading-relaxed px-2">
         <a onClick={handleEmailClick}>
           Email: Troy Crady moxmultisport@gmail.com
         </a>
@@ -32,12 +32,12 @@ function ContactComponent() {
 
 function AddressComponent() {
   return (
-    <h2 className="p-1">
+    <h2 className="pt-1 px-2">
       <a
         href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473919,17z/data=..."
         className="text-gray-600 leading-relaxed "
       >
-        Address - 648 W Randolph St, Chicago, IL 60661
+        Address: 648 W Randolph St, Chicago, IL 60661
       </a>
     </h2>
   );

@@ -4,7 +4,9 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import RoadBikes from './roadbikes';
+
+import Dropdown from './dropdown/dropdown';
+// import Flyoutmenu from './flyoutmenu';
 
 // @ts-ignore
 function classNames(...classes) {
@@ -23,6 +25,10 @@ const Buttons = [
   {
     label: 'Cervelo',
     href: '/cervelo',
+  },
+  {
+    label: 'Cannondale',
+    href: 'cannondale',
   },
   {
     label: 'Pinarello',
@@ -47,15 +53,52 @@ export default function Navigation() {
             <div className="flex h-16 ">
               <div className="flex overflow-x-auto">
                 <div className="hidden  p-1 shadow-sm sm:flex md:space-x-8 lg:space-x-8">
-                  {Buttons.map((button) => (
-                    <a
-                      key={button.href}
-                      href={button.href}
-                      className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
-                    >
-                      {button.label}
-                    </a>
-                  ))}
+                  <Dropdown />
+                  {/* {Buttons.map((button) => (
+                      <a
+                        key={button.href}
+                        href={button.href}
+                        className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                      >
+                        {button.label}
+                      </a>
+                    ))} */}
+
+                  {/* OLD UP OLD DOWN */}
+
+                  {/* <a
+                    href="/"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="/cervelo"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Cervelo
+                  </a>
+
+                  <a
+                    href="pinarello"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Pinarello
+                  </a>
+
+                  <a
+                    href="/triathlon"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Triathlon
+                  </a>
+
+                  <a
+                    href="/custombuilds"
+                    className="inline-flex items-center text-xl md:text-2xl lg:text-2xl font-medium px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2 active:border-sky-500 active:text-sky-500 text-sky-600 whitespace-nowrap"
+                  >
+                    Custom Builds
+                  </a> */}
 
                   {/* <a
                     href="/"

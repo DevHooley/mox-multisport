@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/pinarelloroadbikedata';
+import products from '@/components/roadbikedata/pinarelloroadbikedata';
 
 import Link from 'next/link';
 

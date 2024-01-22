@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import products from '@/components/pinarelloroadbikedata';
+import products from '@/components/roadbikedata/pinarelloroadbikedata';
 
 export default function RoadBikes() {
   // Filter products to include only the one with id 1
@@ -22,26 +22,26 @@ export default function RoadBikes() {
                   key={product.id}
                   className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
                 >
-              <Link href="/order" passHref>
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    width={500}
-                    height={300}
-                    style={{ width: 'auto', height: 'auto' }}
-                  />
-                  <h2 className="text-xl text-slate-800 font-semibold mb-2">
-                    {product.name}
-                  </h2>
-                  <p className="text-gray-700 mb-2">{product.description}</p>
-                  <p className="text-gray-700 mb-2">{product.about}</p>
-                  <p className="text-gray-700 mb-2">Color: {product.color}</p>
-                  <p className="text-sky-600 font-bold mb-2">
-                    ${product.price}
-                  </p>
-                  <p className="text-gray-700 hidden mb-2">
-                    Sizes: {product.sizes.join(', ')}
-                  </p>
+                  <Link href="/order" passHref>
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      width={500}
+                      height={300}
+                      style={{ width: 'auto', height: 'auto' }}
+                    />
+                    <h2 className="text-xl text-slate-800 font-semibold mb-2">
+                      {product.name}
+                    </h2>
+                    <p className="text-gray-700 mb-2">{product.description}</p>
+                    <p className="text-gray-700 mb-2">{product.about}</p>
+                    <p className="text-gray-700 mb-2">Color: {product.color}</p>
+                    <p className="text-sky-600 font-bold mb-2">
+                      ${product.price}
+                    </p>
+                    <p className="text-gray-700 hidden mb-2">
+                      Sizes: {product.sizes.join(', ')}
+                    </p>
                     <p className="text-gray-700 mb-2">
                       Available Sizes:{' '}
                       {product.availablesizes.map((size, index) => (

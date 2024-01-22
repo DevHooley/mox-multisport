@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/cervelotriathlondata';
+import products from '@/components/roadbikedata/cervelotriathlondata';
 
 import Link from 'next/link';
 

@@ -19,7 +19,7 @@ export default function ContactComponent() {
           onClick={handleDialClick}
           className="text-gray-600 cursor-pointer leading-relaxed pt-4"
         >
-          Phone number - (312) 466-9111
+          Phone number: (312) 466-9111
         </a>
       </h2>
     </div>

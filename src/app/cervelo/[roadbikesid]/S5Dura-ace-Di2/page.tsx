@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/roadbikeproductdata';
+import products from '@/components/roadbikedata/roadbikeproductdata';
 import Link from 'next/link';
 
 export default function RoadBikes() {
@@ -51,6 +51,7 @@ export default function RoadBikes() {
                       ))}
                     </p>
                   </Link>
+
                   {/* Use next/image for images */}
                   <div className="rounded-md overflow-hidden"></div>
                 </div>

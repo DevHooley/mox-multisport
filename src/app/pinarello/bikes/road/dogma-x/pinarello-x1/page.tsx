@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import products from '@/components/pinarelloroadbikedata';
+import products from '@/components/roadbikedata/pinarelloroadbikedata';
+import SizeChart from '@/app/sizechart/page';
 
 export default function RoadBikes() {
   // Filter products to include only the one with id 1
@@ -56,6 +57,9 @@ export default function RoadBikes() {
                   <div className="rounded-md overflow-hidden"></div>
                 </div>
               ))}
+              <div className="shadow-md bg-white pt-4 border border-gray-300 max-w-[600px] rounded-lg">
+                <SizeChart />
+              </div>
             </div>
           </div>
         </main>

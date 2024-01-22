@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 // import products from '@/components/triathlonbikeproductdata';
-import products from '@/components/custombikeproductdata';
+import products from '@/components/roadbikedata/custombikeproductdata';
 
 export default function troyspecial() {
   return (

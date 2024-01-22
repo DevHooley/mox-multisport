@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import products from '@/components/cervelotriathlondata';
+import products from '@/components/roadbikedata/cervelotriathlondata';
 
 export default function RoadBikes() {
   // Filter products to include only the one with id 1
