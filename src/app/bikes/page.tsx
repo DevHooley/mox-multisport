@@ -65,7 +65,7 @@ export default function CerveloRoadbikes() {
 
               <button
                 onClick={() => handleSortBy('lowest')}
-                className={`bg-sky-500 text-white py-2 px-4 rounded inline-block text-center text-sm font-semibold hover:bg-sky-600 active:bg-sky-400 transition duration-300 inline-flex w-full justify-center  pr-6  py-2  font-semibold    items-center text-xl md:text-2xl lg:text-2xl  px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2  active:border-sky-500 active:text-sky-500 pb-4 text-sky-600 whitespace-nowrap ${
+                className={`bg-sky-500 text-white py-2 px-4 rounded inline-block text-center text-sm font-semibold hover:bg-sky-600 active:bg-sky-400 transition duration-300 ${
                   sortBy === 'lowest' && 'font-bold'
                 }`}
               >
