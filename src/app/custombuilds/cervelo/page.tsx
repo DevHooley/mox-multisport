@@ -4,14 +4,14 @@ import Link from 'next/link';
 import products from '@/components/roadbikedata/troycustomproductdata';
 
 // Helper component for table rows
-const TableRow = ({ label, value }) => (
+const TableRow = ({ label, value }: { label: string, value: string }) => (
   <tr>
     <td className="text-gray-700 mb-2 font-semibold">{label}:</td>
     <td className="text-gray-700 mb-2">{value}</td>
   </tr>
 );
 
-export default function CannondaleRoadbikes() {
+export default function troyCustomBuild() {
   const filteredProducts = products.filter((product) => product.id === 1);
 
   return (
