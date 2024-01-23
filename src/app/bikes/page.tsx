@@ -10,6 +10,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid';
 
 interface Product {
   id: number;
+  brand: string;
   version: string;
   name: string;
   description: string;

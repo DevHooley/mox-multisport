@@ -28,15 +28,15 @@
 
 'use client';
 
-import { useLayoutEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import React from 'react';
 import ContactComponent from '@/components/contact';
 import Image from 'next/image';
 
 export default function Order() {
-  const firstSectionRef = useRef(null);
+  const firstSectionRef = useRef<HTMLDivElement | null>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     // Set the initial scroll position to scroll to the start of the first section
     if (firstSectionRef.current) {
       const sectionPosition = firstSectionRef.current.offsetTop;
