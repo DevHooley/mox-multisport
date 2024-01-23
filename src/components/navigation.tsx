@@ -18,10 +18,10 @@ const Buttons = [
     label: 'Home',
     href: '/',
   },
-  // {
-  //   label: 'Test',
-  //   href: '/cervelo',
-  // },
+  {
+    label: 'All Bikes',
+    href: '/bikes',
+  },
   {
     label: 'Cervelo',
     href: '/cervelo',

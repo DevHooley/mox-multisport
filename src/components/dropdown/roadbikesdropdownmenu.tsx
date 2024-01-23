@@ -30,6 +30,21 @@ export default function RoadbikesDropdownmenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
+                  href="/bikes"
+                  className={classNames(
+                    'block px-4  py-2 text-sm',
+                    active
+                      ? 'bg-pink-50 border-l-4 pl-3 border-transparent border-pink-500 text-pink-500 active:bg-sky-50 active:border-sky-300 active:text-sky-700'
+                      : 'text-gray-700 '
+                  )}
+                >
+                  All Bikes
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
                   href="/cervelo"
                   className={classNames(
                     'block px-4  py-2 text-sm',

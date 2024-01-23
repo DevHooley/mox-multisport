@@ -3,7 +3,7 @@ import Image from 'next/image';
 import products from '@/components/roadbikedata/cannondaleproductdata';
 import Link from 'next/link';
 
-export default function Roadbikes() {
+export default function CannondaleRoadbikes() {
   return (
     <>
       <section className=" bg-gray-50 ">
