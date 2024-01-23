@@ -1,6 +1,7 @@
 const products = [
   {
     id: 1, // Swapped id from 1 to 2
+    brand: 'Cervelo',
     version: 'S5',
     name: 'S5 Dura-Ace Di2 ',
     model: 'Cervelo S5',
@@ -17,6 +18,7 @@ const products = [
   },
   {
     id: 2, // Swapped id from 2 to 1
+    brand: 'Cervelo',
     version: 'R5',
     name: 'R5 Dura-Ace Di2',
     model: 'Cervelo R5',
@@ -32,6 +34,7 @@ const products = [
   },
   {
     id: 3,
+    brand: 'Cervelo',
     version: 'Soloist',
     name: 'Soloist Ultegra Di2',
     model: 'Cervelo Soloist',
@@ -47,6 +50,7 @@ const products = [
   },
   {
     id: 4,
+    brand: 'Cervelo',
     version: 'Caledonia-5',
     name: 'Caledonia-5 Ultegra Di2',
     model: 'Cervelo Caledonia 5',
@@ -61,6 +65,7 @@ const products = [
   },
   {
     id: 5,
+    brand: 'Cervelo',
     version: 'Caledonia',
     name: 'Caledonia 105 Di2',
     model: 'Cervelo Caledonia',
@@ -75,6 +80,7 @@ const products = [
   },
   {
     id: 6,
+    brand: 'Cervelo',
     version: 'P5',
     name: 'P5 Dura-ace Di2',
     model: 'Dura-ace di2',
@@ -92,6 +98,7 @@ const products = [
   },
   {
     id: 7,
+    brand: 'Cervelo',
     version: 'P5',
     name: 'P5 Ultegra Di2',
     model: 'Ultegra di2',
@@ -109,6 +116,7 @@ const products = [
   },
   {
     id: 8,
+    brand: 'Cervelo',
     version: 'P5',
     name: 'Frameset',
     model: 'Frameset',
@@ -126,6 +134,7 @@ const products = [
   },
   {
     id: 9,
+    brand: 'Cervelo',
     version: 'P-Series',
     name: 'P-Series Ultegra Di2',
     model: 'Ultegra Di2',
@@ -143,6 +152,7 @@ const products = [
   },
   {
     id: 10,
+    brand: 'Cervelo',
     version: 'P-Series',
     name: 'P-Series Ultegra',
     model: 'Ultegra',
@@ -160,6 +170,7 @@ const products = [
   },
   {
     id: 11,
+    brand: 'Cervelo',
     version: 'P-Series Race',
     name: 'P-Series Race 105',
     model: '105',
@@ -177,6 +188,7 @@ const products = [
   },
   {
     id: 12,
+    brand: 'Cervelo',
     version: 'P-Series',
     name: 'P-Series 105 di2',
     model: '105 di2',
@@ -194,6 +206,7 @@ const products = [
   },
   {
     id: 13,
+    brand: 'Cervelo',
     version: 'P-Series',
     name: 'Frameset',
     model: 'Frameset',
@@ -211,6 +224,7 @@ const products = [
   },
   {
     id: 14,
+    brand: 'Pinarello',
     version: 'Dogma F',
     name: 'Dogma F Dura-ace Di2',
     model: 'Dura-ace di2',
@@ -240,6 +254,7 @@ const products = [
   },
   {
     id: 15,
+    brand: 'Pinarello',
     version: 'Pinarello F9',
     name: 'Pinarello F9 Dura-ace di2',
     model: ' Dura-ace di2',
@@ -256,6 +271,7 @@ const products = [
   },
   {
     id: 16,
+    brand: 'Pinarello',
     version: 'Pinarello F7',
     name: 'Pinarello F7 Ultegra di2',
     model: ' Ultegra di2',
@@ -272,6 +288,7 @@ const products = [
   },
   {
     id: 17,
+    brand: 'Pinarello',
     version: 'Pinarello F5',
     name: 'Pinarello F5 105 di2',
     model: ' 105 di2',
@@ -288,6 +305,7 @@ const products = [
   },
   {
     id: 18,
+    brand: 'Pinarello',
     version: 'Dogma X',
     name: 'Dogma X Dura-ace di2',
     model: ' Dura-ace di2',
@@ -304,6 +322,7 @@ const products = [
   },
   {
     id: 19,
+    brand: 'Pinarello',
     version: 'Pinarello X9',
     name: 'Pinarello X9 Dura-ace di2',
     model: ' Dura-ace di2',
@@ -320,6 +339,7 @@ const products = [
   },
   {
     id: 20,
+    brand: 'Pinarello',
     version: 'Pinarello X7',
     name: 'Pinarello X7 Ultegra di2',
     model: ' Ultegra di2',
@@ -336,6 +356,7 @@ const products = [
   },
   {
     id: 21,
+    brand: 'Pinarello',
     version: 'Pinarello X5',
     name: 'Pinarello X5 105 di2',
     model: ' 105 di2',
@@ -352,6 +373,7 @@ const products = [
   },
   {
     id: 22,
+    brand: 'Pinarello',
     version: 'Pinarello X1',
     name: 'Pinarello X1 105',
     model: ' 105',
@@ -368,6 +390,7 @@ const products = [
   },
   {
     id: 23,
+    brand: 'Cannondale',
     version: 'SuperSix EVO LAB71',
     name: 'SuperSix EVO LAB71 Dura-Ace Di2',
     model: 'Dura-ace di2',
@@ -404,6 +427,7 @@ const products = [
   },
   {
     id: 24,
+    brand: 'Cannondale',
     version: 'SuperSix EVO Hi-MOD',
     name: 'SuperSix EVO Hi-MOD Sram Red eTap AXS',
     model: 'SRAM Force AXS 12-speed',
@@ -450,6 +474,7 @@ const products = [
   },
   {
     id: 25,
+    brand: 'Cannondale',
     version: 'SystemSix Hi-MOD ',
     name: 'SystemSix Hi-MOD Dura-Ace Di2',
     model: 'Dura-ace di2',
@@ -489,6 +514,7 @@ const products = [
   },
   {
     id: 26,
+    brand: 'Cannondale',
     version: 'SuperSix EVO Hi-MOD 2',
     name: 'SystemSix Hi-MOD Ultegra Di2',
     model: 'Ultegra di2',
@@ -532,6 +558,7 @@ const products = [
   },
   {
     id: 27,
+    brand: 'Cannondale',
     version: 'SuperSix EVO 1',
     name: 'SystemSix Hi-MOD SRAM Force eTap AXS',
     model: 'SRAM Force AXS 12-speed',
@@ -573,6 +600,7 @@ const products = [
   },
   {
     id: 28,
+    brand: 'Cannondale',
     version: 'SuperSix EVO 2',
     name: 'SuperSix EVO 2 Ultegra Di2',
     model: 'Ultegra di2',
@@ -615,6 +643,7 @@ const products = [
   },
   {
     id: 29,
+    brand: 'Cannondale',
     version: 'SuperSix EVO',
     name: 'SuperSix EVO Rival eTap AXS',
     model: 'SRAM Rival AXS 12-speed',
@@ -657,6 +686,7 @@ const products = [
   },
   {
     id: 30,
+    brand: 'Cannondale',
     version: 'SuperSix EVO 3',
     name: 'SuperSix EVO 3 105 Di2',
     model: '105 di2',

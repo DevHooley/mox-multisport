@@ -28,14 +28,28 @@
 
 'use client';
 
+import { useLayoutEffect, useRef } from 'react';
 import React from 'react';
 import ContactComponent from '@/components/contact';
 import Image from 'next/image';
 
 export default function Order() {
+  const firstSectionRef = useRef(null);
+
+  useLayoutEffect(() => {
+    // Set the initial scroll position to scroll to the start of the first section
+    if (firstSectionRef.current) {
+      const sectionPosition = firstSectionRef.current.offsetTop;
+      window.scrollTo(0, sectionPosition);
+    }
+  }, []);
+
   return (
     <>
-      <section className="bg-white justify-center h-screen flex">
+      <section
+        ref={firstSectionRef}
+        className="bg-white justify-center h-screen flex"
+      >
         <div className="flex flex-col items-center mx-auto mt-20 px-4 sm:px-6 lg:px-8">
           <main className="text-center ml-5">
             <h1 className="text-8xl text-slate-800">Oops!</h1>

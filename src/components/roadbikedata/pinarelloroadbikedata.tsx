@@ -29,7 +29,7 @@ const products = [
     // Updated URL with product ID
   },
   {
-    id: 3,
+    id: 2,
     version: 'Pinarello F9',
     name: 'Pinarello F9 Dura-ace di2',
     model: ' Dura-ace di2',
