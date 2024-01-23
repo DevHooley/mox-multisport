@@ -106,7 +106,7 @@ export default function RoadbikesDropdownmenu() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/custombuilds"
+                  href="/custombuilds/cervelo"
                   className={classNames(
                     'block px-4  py-2 text-sm',
                     active

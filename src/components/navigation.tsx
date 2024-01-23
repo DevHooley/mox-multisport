@@ -40,7 +40,7 @@ const Buttons = [
   },
   {
     label: 'Custom Builds',
-    href: '/custombuilds',
+    href: '/custombuilds/cervelo',
   },
 ];
 
