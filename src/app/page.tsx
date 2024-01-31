@@ -28,7 +28,7 @@ export default function Home() {
       <section className="flex items-center justify-center">
         <div className="max-w-7xl mx-auto py-0.5 md:py-0.5 bg-white shadow-md rounded-sm">
           <header className="text-2xl max-w-6xl md:text-3xl lg:text-4xl font-bold pt-6 mb-6 text-gray-800 text-center">
-            We are a full-service bicycle shop located in the heart of
+            We are a Full-Service bicycle shop located in the heart of
             Chicago&apos;s West Loop
           </header>
           <div>
