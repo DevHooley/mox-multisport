@@ -12,7 +12,7 @@ export default function TriathlonDropdownmenu() {
       <Menu.Button className="inline-flex w-full justify-center gap-x-1.5    py-2  font-semibold    items-center text-xl md:text-2xl lg:text-2xl  px-2 border-transparent hover:text-pink-500 hover:border-b-2 hover:border-b-pink-500 active:border-b-2  active:border-sky-500 active:text-sky-500 pb-4 text-sky-600 whitespace-nowrap ">
         Triathlon
         <ChevronDownIcon
-          className="-mr-1 h-6 w-6 relative inline-flex items-center justify-center rounded-md  text-gray-400 hover:bg-gray-50 hover:text-gray-500 "
+          className="-mr-1 h-6 w-6 relative inline-flex items-center justify-center rounded-md  text-gray-400 hover:bg-gray-50  hover:text-gray-500 "
           aria-hidden="true"
         />
       </Menu.Button>
@@ -26,7 +26,7 @@ export default function TriathlonDropdownmenu() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute object-left-top z-10 mt-3 w-56 origin-top-left rounded-b-md bg-gray-50 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
+        <Menu.Items className="absolute object-left-top z-10 mt-3 w-56 origin-top-left rounded-b-md  bg-gray-50 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
           <div className="py-2">
             <Menu.Item>
               {({ active }) => (

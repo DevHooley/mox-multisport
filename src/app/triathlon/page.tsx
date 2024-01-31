@@ -17,7 +17,7 @@ export default function CerveloTriathlon() {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
+                  className="mb-8 shadow-md bg-white min-h-[560px] p-4 border border-gray-300 rounded-lg"
                 >
                   <Link href={product.url}>
                     <h1 className="text-xl sm:text-xl lg:text-2xl xl:text-3xl pt-4  font-semibold text-slate-800">

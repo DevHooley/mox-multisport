@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import products from '@/components/roadbikedata/pinarelloroadbikedata';
+import products from '@/components/roadbikedata/cervelotriathlondata';
 
 export default function RoadBikes() {
   // Filter products to include only the one with id 1
-  const filteredProducts = products.filter((product) => product.id === 1);
+  const filteredProducts = products.filter((product) => product.id === 7);
 
   return (
     <>

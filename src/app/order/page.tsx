@@ -68,7 +68,13 @@ export default function Order() {
               {/* Assuming ContactComponent handles its own styling */}
               <ContactComponent />
               <div className=" flex pt-8 justify-center items-center">
-                <div style={{ maxWidth: '500px', width: '100%' }}>
+                <div
+                  style={{
+                    maxWidth: '500px',
+                    width: '100%',
+                    maxHeight: 'calc(100vh - <height-of-your-footer>)',
+                  }}
+                >
                   <Image
                     src="/404cartoon.jpg"
                     alt="cartoon cycling crash"

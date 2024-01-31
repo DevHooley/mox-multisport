@@ -46,7 +46,6 @@ export default function Home() {
                   we&apos;re here to enhance your cycling experience at every
                   turn.
                 </p>
-
                 <p className="text-gray-700 leading-relaxed p-5 pt-4">
                   Visit us today to explore our wide selection of bikes, from
                   road bikes to triathlon bikes and custom builds. We pride

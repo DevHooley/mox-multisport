@@ -5,7 +5,7 @@ export default function Banner() {
     <>
       <div className="py-0.5">
         <div className="mx-auto max-w-7xl shadow-sm bg-white px-4 sm:px-6 lg:px-8">
-          <div className="flex h-8 justify-center">
+          <div className="flex h-10 justify-center">
             <ul className="flex justify-center space-x-4 sm:space-x-6 lg:space-x-8 items-center text-black">
               <li className="p-2">
                 <a

@@ -25,12 +25,15 @@ export default function RoadbikesDropdownmenu() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute object-left-top z-10 mt-3 w-56 origin-top-left rounded-b-md bg-gray-50 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
+        <Menu.Items className="absolute object-left-top z-10 mt-3 w-96 origin-top-left rounded-b-md bg-gray-50    shadow-lg focus:outline-none ">
           <div className="py-2 grid grid-cols-1 gap-x-4">
+            <h1 className="text-sky-600 pt-3 p-3 font-semibold ">
+              Browse all Bikes & Frames by Brand & Price
+            </h1>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/bikes"
+                  href="/bikes/allbikes"
                   className={classNames(
                     'block px-4  py-2 text-sm',
                     active

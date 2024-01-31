@@ -45,7 +45,7 @@ const Buttons = [
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="py-0.5">
+    <Disclosure as="nav" className="pt-0.5">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl shadow-sm bg-gray-50 px-4 sm:px-6 lg:px-8">
@@ -230,10 +230,6 @@ export default function Navigation() {
                 Custom Builds
               </Disclosure.Button>
               {} */}
-            </div>
-            <div className="border-t border-gray-200 pb-3 pt-4">
-              {}
-              <div>{}</div>
             </div>
           </Disclosure.Panel>
         </>

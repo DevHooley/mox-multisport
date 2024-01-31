@@ -2,18 +2,17 @@
 
 import React from 'react';
 import Image from 'next/image';
-import products from '@/components/roadbikedata/roadbikeproductdata';
+import products from '@/components/roadbikedata/roadbikedatamaster';
 import Link from 'next/link';
 
-export default function CerveloRoadbikes() {
+export default function Gallery() {
   return (
     <>
       <section className=" bg-gray-50 ">
         <main className="flex justify-center items-center p-4">
           <div className="text-center ">
-            <div className="pb-10 -mt-6"></div>
             <h1 className="text-xl sm:text-xl lg:text-2xl xl:text-3xl text-slate-700  font-semibold mb-4">
-              Cervelo Road Bikes
+              Cannondale
             </h1>
             {/* <h1 className="text-4xl text-slate-700 font-serif font-semibold mb-4 tracking-wide leading-tight text-shadow-md">
               Cervelo Road Bikes
@@ -25,7 +24,7 @@ export default function CerveloRoadbikes() {
                   className="mb-8 shadow-md bg-white p-4 border border-gray-300 rounded-lg"
                 >
                   <Link href={product.url}>
-                    <h1 className="text-xl sm:text-xl lg:text-2xl xl:text-3xl pt-4  font-semibold text-slate-800">
+                    <h1 className="text-xl sm:text-xl  lg:text-2xl xl:text-3xl pt-4  font-semibold text-slate-800">
                       {product.version}
                     </h1>
                     <Image
