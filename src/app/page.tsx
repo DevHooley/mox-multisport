@@ -70,7 +70,8 @@ export default function Home() {
                   <h2 className="mt-4">
                     <a
                       href="https://maps.app.goo.gl/o6KsMZTfUo618U8A6?g_st=i"
-                      className="text-gray-600 leading-relaxed pt-4"
+                      className="text-gray-600 leading-relaxed pt-2"
+                      target="_blank"
                     >
                       Address: 648 W Randolph St, Chicago, IL 60661
                     </a>
