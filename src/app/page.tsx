@@ -83,7 +83,7 @@ export default function Home() {
                   </h2>
                   <div className="">
                     <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-4">
-                      <a href="mailto:moxmultisport@gmail.com">
+                      <a href="mailto:moxmultisport@gmail.com?subject=MoxMultisport%20Online%20inquire&body=Hello%20Mox,%0A%0AI'm%20interested%20in">
                         Email: Troy Crady - moxmultisport@gmail.com
                       </a>
                     </h2>

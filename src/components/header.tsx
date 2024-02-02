@@ -88,8 +88,8 @@ export default function Header() {
                 Address: 648 W Randolph St, Chicago, IL 60661
               </a>
             </h2>
-            <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-2">
-              <a href="mailto:moxmultisport@gmail.com">
+            <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-4">
+              <a href="mailto:moxmultisport@gmail.com?subject=MoxMultisport%20Online%20inquire&body=Hello%20Mox,%0A%0AI'm%20interested%20in">
                 Email: Troy Crady - moxmultisport@gmail.com
               </a>
             </h2>
