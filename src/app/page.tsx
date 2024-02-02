@@ -70,7 +70,6 @@ export default function Home() {
                       </a>
                     </h2>
                     <h2 className="mt-4">
-                      <a href=""></a>
                       <a
                         href="tel:+13124669111"
                         className="text-gray-600 cursor-pointer leading-relaxed pt-4"
