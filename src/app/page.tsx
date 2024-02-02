@@ -47,12 +47,23 @@ export default function Home() {
                   turn.
                 </p>
 
-                <p className="text-gray-700 leading-relaxed p-5 pt-4">
+                {/* <p className="text-gray-700 leading-relaxed p-5 pt-4">
                   Visit us today to explore our wide selection of bikes, from
                   road bikes to triathlon bikes and custom builds. We pride
                   ourselves on delivering excellent customer service and
                   ensuring that every rider finds the perfect fit. Join us on
                   the journey to discovering the joy of cycling!
+                </p> */}
+                <p className="text-gray-700 leading-relaxed p-5 pt-4">
+                  Whether you're envisioning a bespoke bike crafted from the
+                  frame up, seeking a specific order, or simply have questions
+                  related to cycling, don't hesitate to reach out to us. Feel
+                  free to give us a call, shoot us an email, or better yet, drop
+                  by our shop. We're here to bring your cycling dreams to life,
+                  provide expert guidance, and address any inquiries you may
+                  have. Your journey towards the perfect ride begins with us,
+                  and we're eager to assist in creating a customized cycling
+                  experience tailored just for you.
                 </p>
                 <div className="p-5">
                   <h2 className="mt-4">
