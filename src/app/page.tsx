@@ -66,8 +66,13 @@ export default function Home() {
                   creating a customized cycling experience tailored just for
                   you.
                 </p>
+                <p className="text-gray-700 leading-relaxed p-5 pt-4">
+                  Bicycle brands we represent include:
+                  {' Cervelo, Cannondale, Pinarello, Look, BMC, and others'}
+                </p>
+
                 <div className="p-5">
-                  <h2 className="mt-4">
+                  <h2 className="">
                     <a
                       href="https://maps.app.goo.gl/o6KsMZTfUo618U8A6?g_st=i"
                       className="text-gray-600 leading-relaxed pt-2"
