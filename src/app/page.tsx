@@ -57,7 +57,7 @@ export default function Home() {
                 <div className="p-5">
                   <h2 className="mt-4">
                     <a
-                      href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473812,17z/data=!3m2!4b1!5s0x880e2cc593fa8991:0x5464abfea94a887e!4m6!3m5!1s0x880e2cc540e27dc3:0xda536ce40582cafe!8m2!3d41.884844!4d-87.6448116!16s%2Fg%2F1tdz5dpk?entry=ttu"
+                      href="https://maps.app.goo.gl/o6KsMZTfUo618U8A6?g_st=i"
                       className="text-gray-600 leading-relaxed pt-4"
                     >
                       Address: 648 W Randolph St, Chicago, IL 60661
