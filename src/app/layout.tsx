@@ -4,6 +4,7 @@ import './globals.css';
 // import Navigation from '@/components/navigation';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import Topper from '@/components/top';
 // import Banner from '@/components/banner';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,6 +28,7 @@ export default function RootLayout({
             <div className="bg-slate-700 border-1 border-slate-500 mx-auto justify-center item-center max-w-7xl">
               <div className="max-w-7xl mx-auto ">
                 {/* <Banner /> */}
+                <Topper />
                 <Header />
                 {/* <Navigation /> */}
                 {children}

@@ -78,24 +78,24 @@ export default function Header() {
 
         {/* Render AddressComponent and ContactComponent only on lg and xl screens */}
         <div className="lg:w-1/4 lg:pl-4 hidden lg:inline xl:inline">
-          <div className="flex flex-col justify-center mt-2 items-center">
-            <h2 className="mt-4">
+          <div className="flex flex-col justify-right mt-2 items-right">
+            <h2 className="mt-2">
               <a
                 href="https://maps.app.goo.gl/o6KsMZTfUo618U8A6?g_st=i"
-                className="text-gray-600 leading-relaxed pt-4"
+                className="text-gray-600 leading-relaxed pt-2"
               >
                 Address: 648 W Randolph St, Chicago, IL 60661
               </a>
             </h2>
-            <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-4">
+            <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-2">
               <a href="mailto:moxmultisport@gmail.com">
                 Email: Troy Crady - moxmultisport@gmail.com
               </a>
             </h2>
-            <h2 className="mt-4">
+            <h2 className="text-gray-700 cursor-pointer mr-auto leading-relaxed pt-2">
               <a
                 href="tel:+13124669111"
-                className="text-gray-600 cursor-pointer leading-relaxed pt-4"
+                className="text-gray-600 cursor-pointer justify-start items-start leading-relaxed pt-2"
               >
                 Phone number: (312) 466-9111
               </a>

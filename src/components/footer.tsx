@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <div className="py-0.5">
-      <footer className="bg-sky-300  h-20 shadow-sm  text-white py-6">
+      <footer className="bg-sky-300  h-10 shadow-sm  text-white py-6">
         {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start lg:justify-center md:justify-center lg:items-center space-y-4 sm:space-y-0 md:item sm:space-x-8">
             <div>
