@@ -2,9 +2,9 @@
 
 import React from 'react';
 import Image from 'next/image';
-import AddressComponent from '@/components/address';
-import ContactComponent from '@/components/contact';
-import CustomMenu from '@/components/custommenu';
+// import AddressComponent from '@/components/address';
+// import ContactComponent from '@/components/contact';
+// import CustomMenu from '@/components/custommenu';
 
 function ImageComponent() {
   return (
@@ -55,8 +55,30 @@ export default function Home() {
                   the journey to discovering the joy of cycling!
                 </p>
                 <div className="p-5">
-                  <AddressComponent />
-                  <ContactComponent />
+                  <h2 className="mt-4">
+                    <a
+                      href="https://www.google.com/maps/place/Mox+Multisport/@41.884844,-87.6473919,17z/data=..."
+                      className="text-gray-600 leading-relaxed pt-4"
+                    >
+                      Address: 648 W Randolph St, Chicago, IL 60661
+                    </a>
+                  </h2>
+                  <div className="">
+                    <h2 className="text-gray-700 cursor-pointer leading-relaxed pt-4">
+                      <a href="mailto:moxmultisport@gmail.com">
+                        Email: Troy Crady - moxmultisport@gmail.com
+                      </a>
+                    </h2>
+                    <h2 className="mt-4">
+                      <a href=""></a>
+                      <a
+                        href="tel:+13124669111"
+                        className="text-gray-600 cursor-pointer leading-relaxed pt-4"
+                      >
+                        Phone number: (312) 466-9111
+                      </a>
+                    </h2>
+                  </div>
                 </div>
               </div>
             </div>

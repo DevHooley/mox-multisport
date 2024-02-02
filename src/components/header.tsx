@@ -45,12 +45,12 @@ function AddressComponent() {
 
 export default function Header() {
   return (
-    <header className="bg-gray-50 py-0.5 sm:py-0.5 md:py-0.5 lg:py-0.5 xl:py-0.5 2xl:py-0.5">
+    <header className="bg-white py-0.5 sm:py-0.5 md:py-0.5 lg:py-0.5 xl:py-0.5 2xl:py-0.5">
       <div className="flex flex-wrap lg:flex-nowrap">
         <div className="lg:w-3/4">
           {/* Existing content */}
           <div className="flex items-center justify-center mb-4">
-            <a href="/" className="flex shadow-sm rounded-lg items-center mr-5">
+            <a href="/" className="flex rounded-lg items-center mr-5">
               <Image
                 className="rounded-lg"
                 src="/MoxLogo.jpg"

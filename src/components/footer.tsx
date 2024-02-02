@@ -24,8 +24,8 @@ export default function Footer() {
 
   return (
     <div className="py-0.5">
-      <footer className="bg-sky-300  shadow-sm  text-white py-6">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <footer className="bg-sky-300  h-20 shadow-sm  text-white py-6">
+        {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start lg:justify-center md:justify-center lg:items-center space-y-4 sm:space-y-0 md:item sm:space-x-8">
             <div>
               <a
@@ -47,19 +47,20 @@ export default function Footer() {
               <p className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl  whitespace-nowrap">
                 Troy Crady
               </p>
-              <a
-                onClick={handleEmailClick}
-                className="text-sm sm:text-base lg:text-lg xl:text-xl 2xl:text-xl  whitespace-nowrap cursor-pointer"
-              >
+              <a href="mailto:moxmultisport@gmail.com?subject=Thank%20you%20for%20visiting%20our%20website">
                 Email - moxmultisport@gmail.com
               </a>
             </div>
           </div>
           <div className="flex flex-col cursor-pointer sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8"></div>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
+}
+
+{
+  /* <a href="mailto:nick@devnick.com">SEND ME AN EMAIL</a>; */
 }
 
 // 'use client';

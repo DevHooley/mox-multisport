@@ -87,6 +87,9 @@ export default function Order() {
   );
 }
 
+
+{/* <a href="mailto:nick@devnick.com">SEND ME AN EMAIL</a> */}
+
 // 'use client';
 
 // import React from 'react';
