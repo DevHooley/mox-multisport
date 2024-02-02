@@ -55,15 +55,16 @@ export default function Home() {
                   the journey to discovering the joy of cycling!
                 </p> */}
                 <p className="text-gray-700 leading-relaxed p-5 pt-4">
-                  Whether you're envisioning a bespoke bike crafted from the
-                  frame up, seeking a specific order, or simply have questions
-                  related to cycling, don't hesitate to reach out to us. Feel
-                  free to give us a call, shoot us an email, or better yet, drop
-                  by our shop. We're here to bring your cycling dreams to life,
-                  provide expert guidance, and address any inquiries you may
-                  have. Your journey towards the perfect ride begins with us,
-                  and we're eager to assist in creating a customized cycling
-                  experience tailored just for you.
+                  Whether you&apos;re envisioning a bespoke bike crafted from
+                  the frame up, seeking a specific order, or simply have
+                  questions related to cycling, don&apos;t hesitate to reach out
+                  to us. Feel free to give us a call, shoot us an email, or
+                  better yet, drop by our shop. We&apos;re here to bring your
+                  cycling dreams to life, provide expert guidance, and address
+                  any inquiries you may have. Your journey towards the perfect
+                  ride begins with us, and we&apos;re eager to assist in
+                  creating a customized cycling experience tailored just for
+                  you.
                 </p>
                 <div className="p-5">
                   <h2 className="mt-4">
